@@ -9,7 +9,7 @@ services:
       - PGID=1000
       - TZ=Europe/London
     volumes:
-      - /path/to/homeassistant/data:/config
+      - /etc/homeassistant/data:/config
     ports:
       - 8123:8123 #optional
     devices:
